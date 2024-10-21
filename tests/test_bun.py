@@ -10,5 +10,5 @@ def test_bun_get_name(name):
 
 
 def test_bun_get_price():
-    bun = Bun('Галактика', float(Burger_Info.Price_Bun))
-    assert bun.get_price() == float(Burger_Info.Price_Bun)
+    bun = Bun('Галактика', Burger_Info.Price_Bun)
+    assert bun.get_price() == Burger_Info.Price_Bun
