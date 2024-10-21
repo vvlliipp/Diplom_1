@@ -1,5 +1,5 @@
 import pytest
-from bun import Bun
+from praktikum.bun import Bun
 from helpers import Burger_Info
 
 
